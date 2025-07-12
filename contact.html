@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us - Soft Solutions LLC</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="contact, software development, game development, web development" name="keywords">
+        <meta content="Get in touch with Soft Solutions LLC for custom software development, game development, and web development services." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Contact Form Usability Fixes -->
+        <style>
+            .form-control {
+                position: relative !important;
+                z-index: 10 !important;
+                cursor: text !important;
+                pointer-events: auto !important;
+            }
+            
+            .form-control:focus {
+                z-index: 20 !important;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+                border-color: #80bdff !important;
+            }
+            
+            .form-label {
+                position: static !important;
+                pointer-events: none !important;
+                z-index: 1 !important;
+            }
+            
+            .mb-3 {
+                position: relative !important;
+            }
+            
+            /* Ensure textarea is clickable */
+            textarea.form-control {
+                min-height: 120px !important;
+                resize: vertical !important;
+            }
+            
+            /* Remove any potential overlay issues */
+            .form-control::before,
+            .form-control::after {
+                display: none !important;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/logo.png" alt="Soft Solutions Logo" style="height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="service.html" class="dropdown-item">All Services</a>
+                                <a href="service.html#custom-software" class="dropdown-item">Custom Software</a>
+                                <a href="service.html#game-development" class="dropdown-item">Game Development</a>
+                                <a href="service.html#web-development" class="dropdown-item">Web Development</a>
+                                <a href="service.html#mobile-development" class="dropdown-item">Mobile Apps</a>
+                                <a href="service.html#ui-ux-design" class="dropdown-item">UI/UX Design</a>
+                                <a href="service.html#consulting" class="dropdown-item">Consulting</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <ul class="breadcrumb-animation">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h3>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-primary">Contact</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <h4 class="text-primary mb-4">Get In Touch</h4>
+                    <h1 class="display-5 mb-4">Ready to Start Your Project?</h1>
+                    <p class="mb-0">We're here to help bring your digital vision to life. Whether you need custom software, game development, or web solutions, our team is ready to discuss your project and provide the expertise you need.
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <h2 class="display-5 mb-2">Send Us a Message</h2>
+                        <p class="mb-4">Tell us about your project and we'll get back to you within 24 hours. We're excited to hear about your ideas and help you bring them to life.</p>
+                        <form action="https://getform.io/f/bvrylewb" method="POST">
+                            <div class="row g-3">
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label fw-bold">Your Name *</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label fw-bold">Your Email *</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label fw-bold">Subject *</label>
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label fw-bold">Message *</label>
+                                        <textarea class="form-control" placeholder="Tell us about your project" id="message" name="message" rows="6" required></textarea>
+                                    </div>
+                                </div>
+                                <!-- Hidden Honeypot input to prevent spams -->
+                                <input type="hidden" name="_gotcha" style="display:none !important">
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100 py-3">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
+                            <div class="ms-4">
+                                <h4>Address</h4>
+                                <p class="mb-0">30 N Gould St Ste R</p>
+                                <p class="mb-0">Sheridan, WY 82801</p>
+                                <p class="mb-0">United States</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
+                            <div class="ms-4">
+                                <h4>Email</h4>
+                                <p class="mb-0">info@softsol.biz</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-clock fa-2x text-primary"></i></div>
+                            <div class="ms-4">
+                                <h4>Business Hours</h4>
+                                <p class="mb-0">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                <p class="mb-0">Saturday: Closed
+                                <p class="mb-0">Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded h-100">
+                            <iframe class="rounded w-100" 
+                            style="height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.1234567890123!2d-106.9555!3d44.7972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335c9c0c0c0c0c0%3A0xc0c0c0c0c0c0c0c!2s30%20N%20Gould%20St%20Ste%20R%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sus!4v1694259649153!5m2!1sen!2sus" 
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-dark">Quick Links</h4>
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About Us</a>
+                            <a href="service.html">Services</a>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="tos.html">Terms of Service</a>
+                            <a href="refund.html">Refund Policy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-dark">Services</h4>
+                            <a href="service.html#custom-software">Custom Software Development</a>
+                            <a href="service.html#game-development">Game Development</a>
+                            <a href="service.html#web-development">Web Development</a>
+                            <a href="service.html#mobile-development">Mobile App Development</a>
+                            <a href="service.html#ui-ux-design">UI/UX Design</a>
+                            <a href="service.html#consulting">Technology Consulting</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-dark">Contact Info</h4>
+                            <span><i class="fa fa-map-marker-alt me-2"></i> 30 N Gould St Ste R</span>
+                            <span><i class="fa fa-map-marker-alt me-2"></i> Sheridan, WY 82801</span>
+                            <span><i class="fa fa-map-marker-alt me-2"></i> United States</span>
+                            <a href="contact.html"><i class="fas fa-envelope me-2"></i> info@softsol.biz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Soft Solutions LLC</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        
+        <!-- Contact Form JavaScript -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const form = document.querySelector('form[action="https://getform.io/f/bvrylewb"]');
+                
+                form.addEventListener('submit', function(e) {
+                    // Store form data for submission
+                    const formData = new FormData(form);
+                    
+                    // Submit form data
+                    fetch(form.action, {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            // Clear form inputs
+                            form.reset();
+                            
+                            // Show success message
+                            const submitBtn = form.querySelector('button[type="submit"]');
+                            const originalText = submitBtn.innerHTML;
+                            submitBtn.innerHTML = 'Message Sent!';
+                            submitBtn.classList.remove('btn-primary');
+                            submitBtn.classList.add('btn-success');
+                            
+                            // Reset button after 3 seconds
+                            setTimeout(() => {
+                                submitBtn.innerHTML = originalText;
+                                submitBtn.classList.remove('btn-success');
+                                submitBtn.classList.add('btn-primary');
+                            }, 3000);
+                        } else {
+                            throw new Error('Form submission failed');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        // Show error message
+                        const submitBtn = form.querySelector('button[type="submit"]');
+                        const originalText = submitBtn.innerHTML;
+                        submitBtn.innerHTML = 'Error - Try Again';
+                        submitBtn.classList.remove('btn-primary');
+                        submitBtn.classList.add('btn-danger');
+                        
+                        // Reset button after 3 seconds
+                        setTimeout(() => {
+                            submitBtn.innerHTML = originalText;
+                            submitBtn.classList.remove('btn-danger');
+                            submitBtn.classList.add('btn-primary');
+                        }, 3000);
+                    });
+                    
+                    // Prevent default form submission
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </body>
+
+</html>
